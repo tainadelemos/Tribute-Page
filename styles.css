@@ -1,0 +1,60 @@
+img {
+  height: auto;
+  max-width: 100%;
+  display: block;
+align: center;
+}
+h1 {
+font-family: Rockwell;
+font-size: 50;
+}
+h2 {
+font-family: sans-serif;
+font-size: 18
+}
+body {
+background-color: whitesmoke;
+}
+header {
+  margin: auto;
+  align: center;
+  display: block;
+  padding: 0 auto;
+  margin: 2px;
+  text-align: center;
+  background-color: #CCC; 
+}
+img[id="canva"] {
+  width: 30%;
+  padding: 0 auto;
+  align: left;
+  margin: 2px 0px;
+  border: px;
+}
+img[id="image"] {
+  width: 80%;
+  align: center;
+  margin: auto;
+}
+h2[id="quote"] {
+  text-align: center;
+  font-size: 16;
+  font-family: sans-serif;
+font-weight: normal;
+}
+.container {
+  display: grid;
+  align-items: center;
+ column-gap: 5px;
+}
+li {
+  margin-top: 10px;
+}
+#tribute-info {
+  text-align: center;
+}
+#wikipedia {
+  font-size: 20;
+  font-family: sans;
+  font-weight: bold;
+}
