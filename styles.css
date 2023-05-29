@@ -13,7 +13,7 @@ font-family: sans-serif;
 font-size: 18
 }
 body {
-background-color: whitesmoke;
+background-color: #CCC;
 }
 header {
   margin: auto;
@@ -22,25 +22,23 @@ header {
   padding: 0 auto;
   margin: 2px;
   text-align: center;
-  background-color: #CCC; 
-}
-img[id="canva"] {
-  width: 30%;
-  padding: 0 auto;
-  align: left;
-  margin: 2px 0px;
-  border: px;
+  background-color: #909090; 
+  border-radius: 18px;
+  max-height: 90vh;
 }
 img[id="image"] {
-  width: 80%;
+  width: 65%;
   align: center;
   margin: auto;
+  border-radius: 18px;
 }
 h2[id="quote"] {
   text-align: center;
   font-size: 16;
   font-family: sans-serif;
-font-weight: normal;
+font-weight: bolder;
+margin-top: 5vh;
+margin-bottom: 5vh;
 }
 .container {
   display: grid;
@@ -57,4 +55,26 @@ li {
   font-size: 20;
   font-family: sans;
   font-weight: bold;
+}
+#main {
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+.info {
+  height: 100%;
+  width: 100%;
+  background-color: #b8b8b8;
+  border-radius: 18px;
+}
+#home {
+  width: 20%;
+margin-left: 40%;
+margin-right: 40%;
+border-radius: 18px;
+background-color: whitesmoke;
+color: black;
+}
+#home:hover {
+  background-color: #0097b2;
+  color: white;
 }
